@@ -1,0 +1,7 @@
+# vim: ft=yaml
+# Defaults for neofetch
+
+neofetch:
+  enabled: true
+  pkg: screen
+
