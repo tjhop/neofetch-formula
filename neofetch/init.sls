@@ -7,7 +7,6 @@
 include:
   - neofetch.install
   - neofetch.config
-  - neofetch.service
 {% else %}
 'neofetch-formula disabled':
   test.succeed_without_changes

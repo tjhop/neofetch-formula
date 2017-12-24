@@ -2,5 +2,5 @@
 # Custom Pillar Data for neofetch
 
 neofetch:
-  enabled: false
+  enabled: true
 

@@ -3,5 +3,8 @@
 
 neofetch:
   enabled: true
-  pkg: screen
-
+  prerequisite_pkgs:
+    - git
+    - make
+  git_url: 'https://github.com/dylanaraps/neofetch.git'
+  install_dir: /opt/neofetch
