@@ -30,4 +30,5 @@ neofetch_install:
     - cwd: {{ neofetch.install_dir }}
     - onchanges:
       - git: neofetch_pkg
+      - file: {{ neofetch.config_file }}
     - reload_modules: True

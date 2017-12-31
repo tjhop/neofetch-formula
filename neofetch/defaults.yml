@@ -8,3 +8,4 @@ neofetch:
     - make
   git_url: 'https://github.com/dylanaraps/neofetch.git'
   install_dir: /opt/neofetch
+  config_file: /opt/neofetch/config/config.conf

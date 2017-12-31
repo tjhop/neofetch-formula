@@ -6,9 +6,10 @@
 {% if neofetch.enabled %}
 include:
   - neofetch.install
+  {%- if neofetch.conf is defined %}
   - neofetch.config
+  {%- endif %}
 {% else %}
 'neofetch-formula disabled':
   test.succeed_without_changes
 {% endif %}
-
