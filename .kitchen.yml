@@ -33,7 +33,7 @@ suites:
   - name: debug
     provisioner:
       pillars-from-files:
-        ufw.sls: pillar-custom.sls
+        neofetch.sls: pillar-custom.sls
       pillars:
         top.sls:
           base:
